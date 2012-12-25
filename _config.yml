@@ -1,0 +1,12 @@
+# This is the default format. 
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+# /:categories/:year/:month/:day/:title 
+prose:
+  rooturl: "_posts"
+  metadata:
+      "_posts/blog": |
+        layout: "post"
+        description: "a post about Stockholm"
+        category: "blog"
+        image: "url of image"
+        tags : [tags1, tags2]
